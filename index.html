@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Otávio Phellipe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Otávio Phellipe</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#experience">Experiencias</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#curriculo">Currículo</a></li>
+          <li><a href="#contact">Contatos</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Otávio Phellipe</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experiencias</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+          <li><a href="#curriculo" onclick="toggleMenu()">Curriculo</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contatos</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Foto de Perfil" style="border-radius: 100%; object-fit: cover;" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Olá, eu sou o</p>
+        <h1 class="title">Otávio Phellipe</h1>
+        <p class="section__text__p2">FullStack Developer</p>
+        <div class="btn-container">
+          <button
+        class="btn btn-color-2"
+        onclick="window.open('./assets/curriculo-desatualizado.pdf')"
+          >
+        Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        Sessão de Contatos
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+        src="./assets/linkedin.png"
+        alt="My LinkedIn profile"
+        class="icon"
+        onclick="location.href='https://www.linkedin.com/in/otaviophellipe'"
+          />
+          <img
+        src="./assets/github.png"
+        alt="My Github profile"
+        class="icon"
+        onclick="location.href='https://github.com/otaviophellipe'"
+          />
+
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Saiba Mais</p>
+      <h1 class="title">Sobre Mim</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experiencia</h3>
+              <p>2+ Anos <br />FullStack Developer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Formação Acadêmica</h3>
+              <p>Bacharelado em Sistemas da Informação - <strong><a href="https://www.una.br" target="_blank" rel="noopener noreferrer">Centro Universitário UNA</a></strong></p>
+
+             </div>
+          </div>
+          <div class="text-container">
+<p>
+              Sou desenvolvedor fullstack com mais de dois anos de experiência em programação. Domino linguagens e tecnologias como <strong>Java</strong>, <strong>Typescript</strong>, <strong>CSS</strong>, <strong>SASS</strong>, <strong>NodeJS</strong> e <strong>SQL</strong>. Já atuei no desenvolvimento de projetos web, como a loja online <strong><a href="https://web.archive.org/web/20231213233418/https://www.21supply.com.br/#expand" target="_blank" rel="noopener noreferrer">21Supply</a></strong></a>, e também dei suporte em programação para o site da empresa <strong><a href="https://gmaia.com.br" target="_blank" rel="noopener noreferrer">GMAIA</a></strong></a>. Tenho como ponto forte a capacidade de aprender rapidamente e resolver bugs de forma eficiente, o que me permite contribuir de maneira ágil e versátil em diferentes contextos de desenvolvimento.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Veja minhas</p>
+      <h1 class="title">Experiencias</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">FullStack Developer</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">FullStack Developer</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+                            <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+                            <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Veja meus projetos recentes</p>
+      <h1 class="title">Projetos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-1.png"
+            alt="Projeto 1"
+            class="project-img"
+            style="width: 220px; height: 140px; object-fit: cover;"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Login/Cadastro</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/otaviophellipe/'"
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://otaviophellipe.github.io/Login-Cadastro'"
+          >
+            Acesse
+          </button>
+        </div>
+          </div>
+          <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-2.png"
+            alt="Projeto 2"
+            class="project-img"
+            style="width: 220px; height: 140px; object-fit: cover;"
+          />
+
+        </div>
+        <h2 class="experience-sub-title project-title">Reviews</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/otaviophellipe/'"
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://otaviophellipe.github.io/SkillSpot-Reviews'"
+          >
+            Acesse
+          </button>
+        </div>
+          </div>
+          <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-3.png"
+            alt="Projeto 3"
+            class="project-img"
+            style="width: 220px; height: 140px; object-fit: cover;"
+          />
+        </div>
+
+        <h2 class="experience-sub-title project-title">Calc. Cientifica</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/otaviophellipe/'"
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://otaviophellipe.github.io/Calculadora-Cientifica/calculadora.html'"
+          >
+            Acesse
+          </button>
+        </div>
+    </section>
+            <section id="projects2">
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-4.png"
+            alt="Projeto 4"
+            class="project-img"
+            style="width: 220px; height: 140px; object-fit: cover;"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Login/Cadastro (2)</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/otaviophellipe/'"
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://otaviophellipe.github.io/Login-Cadastro-2/'"
+          >
+            Acesse
+          </button>
+        </div>
+          </div>
+          <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-5.png"
+            alt="Projeto 5"
+            class="project-img"
+            style="width: 220px; height: 140px; object-fit: cover;"
+            />
+
+          </div>
+          <h2 class="experience-sub-title project-title">Super Mario Jump</h2>
+          <div class="btn-container">
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/otaviophellipe/'"
+            >
+            Github
+            </button>
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('https://www.youtube.com/watch?v=QuvAtTkdUmc&feature=youtu.be', '_blank')"
+            >
+            Acesse
+            </button>
+        </div>
+          </div>
+
+          <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-6.png"
+            alt="Projeto 6"
+            class="project-img"
+            style="width: 220px; height: 140px; object-fit: cover;"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">21Supply</h2>
+        <div class="btn-container">
+             <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/otaviophellipe/'"
+            >
+            Github
+            </button>
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://web.archive.org/web/20231213233418/https://www.21supply.com.br/#expand'"
+            >
+            Acesse
+            </button>
+        </section>
+
+        
+        <section class="mt-5 cv" id="curriculo">
+          <div class="container pb-5">
+            <h1 class="pt-3 pb-4" style="text-align: left;">Currículo</h1>
+            <div class="cv-flex-row" style="display: flex; gap: 40px; flex-wrap: wrap;">
+              <!-- Educação -->
+              <div class="cv-col" style="flex: 1 1 300px; min-width: 280px;">
+                <h3 class="cv-title">Educação</h3>
+                <div class="cv-item" data-anime="up">
+                  <h4>Sistemas da Informação</h4>
+                  <h5>2024 - O momento</h5>
+                  <p><strong><em>Centro Universitário UNA</em></strong></p>
+                  <p>Bacharelado em Sistemas da Informação</p>
+                </div>
+                <div class="cv-item" data-anime="up">
+                  <h4>Especialista em Programação</h4>
+                  <h5>Mar 2025 - Mai 2025</h5>
+                  <p><strong><em>LinkedIn</em></strong></p>
+                  <p>Curso de Especialização em Linguagens de Programação</p>
+                </div>
+                <div class="cv-item" data-anime="up">
+                  <h4>CC50 - Ciência da Computação de Harvard </h4>
+                  <h5>2021 - 2023</h5>
+                  <p><strong><em>Fundação TECPop</em></strong></p>
+                  <p>Curso de Especialização em Ciência da Computação</p>
+                </div>
+              </div>
+              <!-- Profissional -->
+              <div class="cv-col" style="flex: 1 1 300px; min-width: 280px;">
+                <h3 class="cv-title">Profissional</h3>
+                <div class="cv-item" data-anime="up">
+                  <h4>Suporte de Desenvolvimento Web FullStack</h4>
+                  <h5>Jan 2023 - Dez 2023</h5>
+                  <p><strong><em>21Supply</em></strong></p>
+                  <p>Desenvolvimento e atualização de código para o sistema da loja.</p>
+                </div>
+                <div class="cv-item" data-anime="up">
+                  <h4>Analista de Suporte TI</h4>
+                  <h5>Out 2021 - Dez 2022</h5>
+                  <p><strong><em>Construtora GMAIA</em></strong></p>
+                  <p>Suporte técnico, Atendimento ao público, Auxiliar FrontEnd</p>
+                </div>
+                <div class="cv-item" data-anime="up">
+                  <h4>Auxiliar Administrativo</h4>
+                  <h5>Out 2021 - Dez 2022</h5>
+                  <p><strong><em>Fundação CDL</em></strong></p>
+                  <p>Organização e gerenciamento de documentações técnicas e administrativas. </p>
+                        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+            </section>
+          <section id="contact">
+            <p class="section__text__p1">Precisa de algum serviço?</p>
+            <h1 class="title">Entre em Contato!</h1>
+            <p> ㅤ</p>
+                        <p> ㅤ</p>
+                                    <p> ㅤ</p>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:pro.otaviophellipe@gmail.com">pro.otaviophellipe@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/otaviophellipe">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="GitHub icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://github.com/otaviophellipe">GitHub</a></p>
+        </div>
+            </div>
+          </section>
+
+
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiencias</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#curriculo">Currículo</a></li>
+            <li><a href="#contact">Contatos</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Otávio Phellipe. Todos os Direitos Reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
